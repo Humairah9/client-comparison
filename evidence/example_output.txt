@@ -1,0 +1,17 @@
+# requests
+books by Ines Marlowe: ['The Lantern Keepers', 'Harbour of Small Hours']
+created loan: 101
+missing book -> handled: 404
+slow endpoint -> handled: timeout
+
+# httpx
+books by Ines Marlowe: ['The Lantern Keepers', 'Harbour of Small Hours']
+created loan: 101
+missing book -> handled: 404
+slow endpoint -> handled: timeout
+
+# httpx2 (example_httpx.py with only the import changed to 'import httpx2 as httpx')
+books by Ines Marlowe: ['The Lantern Keepers', 'Harbour of Small Hours']
+created loan: 101
+missing book -> handled: 404
+slow endpoint -> handled: timeout

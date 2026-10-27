@@ -1,0 +1,16 @@
+1. Redirects (server answers /old with 302 to /new)
+requests.get('/old')                         -> 200  (0.0s)
+httpx.get('/old')                            -> 302  (0.0s)
+httpx.get('/old', follow_redirects=True)     -> 200  (0.0s)
+
+2. Default timeout (server takes 6s to answer)
+requests.get('/api/slow?seconds=6')          -> 200  (6.0s)
+httpx.get('/api/slow?seconds=6')             -> ReadTimeout  (5.0s)
+
+3. Ten requests that each take 0.5s on the server
+requests, one after another                  -> 10 done  (5.0s)
+httpx.AsyncClient + asyncio.gather           -> 10 done  (1.6s)
+
+4. Base class to catch 'any HTTP library error'
+requests: OSError -> catch requests.RequestException
+httpx   : Exception -> catch httpx.HTTPError (HTTPStatusError is NOT requests.HTTPError)

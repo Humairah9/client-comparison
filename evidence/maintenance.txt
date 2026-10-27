@@ -1,0 +1,41 @@
+# Evidence collected for the evidence date 2026-10-27
+
+## requests
+PyPI latest stable: 2.34.2  requires_python: >=3.10  licence: Apache-2.0
+runtime dependencies: ['charset_normalizer<4,>=2', 'idna<4,>=2.5', 'urllib3<3,>=1.26', 'certifi>=2023.5.7']
+newest stable upload: ('2026-05-14T19:25:26', '2.34.2') | newest upload of any kind: ('2026-05-14T19:25:26', '2.34.2')
+stable releases since 2024-10-27: 7
+releases per month (all kinds, last 6 months with releases): {'2023-05': 2, '2024-05': 4, '2025-06': 1, '2025-08': 1, '2026-03': 2, '2026-05': 4}
+git: total commits: 6496
+git: latest commit on default branch: 2026-10-26 | dependabot[bot] | Bump the actions group with 4 updates (#7636)
+git: default-branch commits since 2026-07-27: 10 | of which by bots: 9
+git: default-branch commits in 2026 (since 2026-01-01): 117
+git: commits on ALL branches since 2026-07-27: 11 | distinct authors: 2
+git: most recently updated branches: 2026-10-26 main ; 2026-09-28 dependabot/pre_commit/pre-commit-d501b75439 ; 2026-05-07 init_level_types
+
+## httpx
+PyPI latest stable: 0.28.1  requires_python: >=3.8  licence: BSD-3-Clause
+runtime dependencies: ['anyio', 'certifi', 'httpcore==1.*', 'idna']
+newest stable upload: ('2024-12-06T15:37:21', '0.28.1') | newest upload of any kind: ('2026-08-31T17:59:54', '1.0.dev6')
+stable releases since 2024-10-27: 2
+releases per month (all kinds, last 6 months with releases): {'2024-11': 1, '2024-12': 1, '2025-07': 1, '2025-08': 1, '2025-09': 1, '2026-08': 3}
+git: total commits: 1523
+git: latest commit on default branch: 2026-02-23 | Ben Beasley | Adapt test_response_decode_text_using_autodetect for chardet 6.0 (#3773)
+git: default-branch commits since 2026-07-27: 0 | of which by bots: 0
+git: default-branch commits in 2026 (since 2026-01-01): 1
+git: commits on ALL branches since 2026-07-27: 4 | distinct authors: 1
+git: most recently updated branches: 2026-10-02 version-1.0 ; 2026-03-29 dependabot/pip/cryptography-46.0.6 ; 2026-03-01 dependabot/pip/python-packages-85fe1c1c98
+
+## httpx2
+PyPI latest stable: 2.16.0  requires_python: >=3.11  licence: BSD-3-Clause
+runtime dependencies: ['anyio>=4.10', 'httpcore2==2.16.0', 'httpx2-jsfetch', 'idna>=3.18', 'truststore>=0.10', 'typing-extensions>=4.5.0']
+newest stable upload: ('2026-10-21T07:09:44', '2.16.0') | newest upload of any kind: ('2026-10-21T07:09:44', '2.16.0')
+stable releases since 2024-10-27: 21
+releases per month (all kinds, last 6 months with releases): {'2026-05': 5, '2026-06': 3, '2026-07': 5, '2026-08': 3, '2026-09': 2, '2026-10': 4}
+git: total commits: 2319
+git: latest commit on default branch: 2026-10-23 | Daniel Pope | Recheck HTTP/2 flow after acquiring read lock (#1163)
+git: default-branch commits since 2026-07-27: 103 | of which by bots: 12
+git: default-branch commits in 2026 (since 2026-01-01): 230
+git: commits on ALL branches since 2026-07-27: 198 | distinct authors: 27
+git: most recently updated branches: 2026-10-23 http2-stream ; 2026-10-23 http2-early-response ; 2026-10-23 main
+

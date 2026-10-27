@@ -1,0 +1,28 @@
+== requests
+certifi==2026.10.23
+charset-normalizer==3.5.2
+idna==3.20
+requests==2.34.2
+urllib3==2.8.0
+library + dependencies on disk: 3652 KB
+
+== httpx
+anyio==4.15.1
+certifi==2026.10.23
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.20
+typing_extensions==4.16.0
+library + dependencies on disk: 4624 KB
+
+== httpx2
+anyio==4.15.1
+h11==0.16.0
+httpcore2==2.16.0
+httpx2==2.16.0
+idna==3.20
+truststore==0.10.5
+typing_extensions==4.16.0
+library + dependencies on disk: 4812 KB
+
